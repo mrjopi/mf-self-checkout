@@ -5,6 +5,8 @@ The line is the whole entry: one line, under the contest's character limit.
 The gate refuses anything outside 1..MAX_CHARS characters, so the
 program checks the length before writing.
 """
+
+# The LINE below is the whole entry: it is what the judge reads.
 import os
 
 LINE = 'Unexpected item in the bagging area: your dignity. Please remove it and try scanning your choices again.'
